@@ -1,0 +1,177 @@
+@media (max-width: 992px) {
+
+    body .font_title {
+        font-size: 60px;
+    }
+
+    .head_container {
+        background-image: none;
+        background-image: url("../images/index_left.png");
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    header .logo {
+        padding: 2rem 1.5rem;
+        width: 55%;
+        margin-left: 25%;
+    }
+
+    .head_img_container img {
+        display: none;
+    }
+
+    .head_container header {
+        padding: 0;
+    }
+
+    header nav {
+        display: block;
+        background-color: #303030;
+        line-height: 2rem;
+        padding: 1rem;
+    }
+
+    ul li {
+        margin: 10px;
+        font-size: 1.2rem;
+        display: block;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .position-title {
+        position: static;
+        text-align: center;
+        background-color: #3030309e;
+        margin-top: 2.5rem;
+    }
+
+    .content {
+        position: static;
+        text-align: center;
+        background-color: #3030309e;
+        width: fit-content;
+        padding: 1rem;
+    }
+
+    .content p {
+        font-size: 20px;
+    }
+
+    main .top_statics {
+        position: static;
+        height: auto;
+    }
+
+
+    .best_seller .heading {
+        margin: 0;
+    }
+
+    .best_seller .title {
+        font-size: 3rem;
+    }
+
+    .best_seller p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    main .circle {
+        width: 200px;
+        height: 200px;
+        margin: 9rem auto 0;
+    }
+
+    .top_statics .circle {
+        position: static;
+    }
+
+    .top_statics .oriental_container {
+        position: static;
+        text-align: center;
+        margin: 3rem 0 0;
+        padding: 1rem 0.5rem 2rem;
+    }
+
+    .oriental_container p {
+        font-size: 20px;
+    }
+
+    main .center_container {
+        position: static;
+    }
+
+    .center_container .images img,
+    .subscribe_container img {
+        display: none;
+    }
+
+    main .bottom_statics {
+        position: static;
+    }
+
+    .bottom_statics .circle {
+        position: static;
+        display: none;
+    }
+
+    .bottom_statics .bottom_oriental_container {
+        text-align: center;
+        position: static;
+        padding: 1rem 0;
+    }
+
+    .bottom_statics p {
+        font-size: 20px;
+    }
+
+    main .lenora_container {
+        min-height: 600px;
+    }
+
+    .lenora_container .layer_container {
+        min-height: 600px;
+    }
+
+    .layer_container .lenore_content {
+        width: 100%;
+    }
+
+    .layer_container .lenore_content {
+        font-size: 25px;
+    }
+
+
+    main .subscribe_container {
+        font-size: 40px;
+        display: block;
+        position: static;
+        padding: 4rem 0;
+        min-height: fit-content;
+
+    }
+
+    .subscribe_content p {
+        font-size: 20px;
+    }
+
+    /*     
+.subscribe_content .input_box {
+    max-width: 400px;
+
+} */
+
+
+    footer .footer_row {
+        display: block;
+    }
+
+    .sub_col {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+
+}

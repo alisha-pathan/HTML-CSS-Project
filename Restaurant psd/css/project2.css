@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bokor&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Bokor&family=Grand+Hotel&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+}
+
+/* its for title every title which has the gold color and grand family  */
+body .font_title {
+    font-family: "Grand Hotel", cursive;
+    text-transform: capitalize;
+    font-size: 100px;
+    text-shadow: 1px 0.5px 0.5px black;
+
+}
+
+/* for same color  */
+body .font_color {
+    color: #ffc200;
+}
+
+body a {
+    color: #ccc;
+}
+
+body button:hover {
+    transform: scale(1.02);
+}
+
+/* header container media query line no 5 */
+.head_container {
+    background-color: black;
+    background-color: #303030;
+    text-transform: capitalize;
+    font-size: 25px;
+    min-height: 790px;
+    background-image: url("../images/right_top.png"), url("../images/index_left.png");
+    background-position: 400px -100px, 0 top;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.head_img_container img {
+    position: absolute;
+}
+
+/* / header position  */
+.head_container .ball {
+    right: 250px;
+    bottom: 80px;
+}
+
+.head_container .capcicum {
+    right: 170px;
+    top: 130px;
+}
+
+.head_container .sun1 {
+    top: 140px;
+    left: 650px;
+}
+
+.head_container .sun2 {
+    top: 254px;
+    right: 40px;
+}
+
+.head_container .sun3 {
+    bottom: 200px;
+    right: 390px;
+}
+
+.head_container .sun4 {
+    bottom: 150px;
+    left: 650px;
+}
+
+.head_container .leaf {
+    top: 300px;
+    left: 550px;
+}
+
+.head_container .onion {
+    right: 100px;
+    bottom: 200px;
+}
+
+.head_container .orange {
+    bottom: 50px;
+    right: 551px;
+}
+
+/* header nav media line on 14 */
+.head_container header {
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    margin-left: 1rem;
+    width: 15vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul a {
+    color: white;
+}
+
+ul li {
+    display: inline;
+    margin: 0 2rem;
+}
+
+.position-title {
+    position: absolute;
+    top: 20vh;
+    right: 25vw;
+}
+
+.content {
+    position: absolute;
+    right: 6.5vw;
+    bottom: 35vh;
+}
+
+.content p {
+    font-size: 29.74px;
+    max-width: 650px;
+}
+
+.content button,
+.order {
+    background-color: #ffc200;
+    color: black;
+    width: 240px;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem;
+    font-size: 19.15px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    margin: 3rem 0 0;
+}
+
+main {
+    background-color: white;
+    color: black;
+}
+
+main .best_seller {
+    text-align: center;
+    padding: 2rem;
+}
+
+.best_seller .heading {
+    margin: 1rem;
+}
+
+.best_seller .title {
+    padding: 1rem;
+    font-size: 4.7rem;
+}
+
+.best_seller p {
+    font-size: 1.6rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+main .card_container {
+    color: black;
+    padding: 1rem;
+}
+
+main .row {
+    background-color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 3rem 1rem;
+    justify-content: center;
+}
+
+main .col {
+    text-align: center;
+}
+
+main .img {
+    height: 240px;
+    width: 240px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.card_container .card_title {
+    font-size: 2.6rem;
+    font-family: "Grand Hotel", cursive;
+    text-transform: capitalize;
+    margin: 1rem 0 0;
+}
+
+.card_container .sub_title {
+    font-size: 1rem;
+    width: 15rem;
+    margin: auto;
+}
+
+/* top_statics container */
+
+main .back_col {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0 0 8rem;
+}
+
+main .top_statics {
+    position: relative;
+    height: 650px;
+    margin: 5rem 0 0;
+    overflow: hidden;
+    background-image: url(../images/oriental_top.png);
+    background-position-x: -250px;
+    color: #ccc;
+}
+
+main .circle {
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.top_statics .circle {
+    position: absolute;
+    left: 135px;
+    top: 100px;
+}
+
+.top_statics .oriental_container {
+    max-width: 573px;
+    position: absolute;
+    right: 95px;
+    top: 150px;
+}
+.oriental_container p {
+    font-size: 25.01px;
+}
+
+/* center container  */
+main .center_container {
+    margin: 0;
+    background-color: #303030;
+    color: #ccc;
+    position: relative;
+    min-height: 850px;
+}
+
+.center_container .state_row {
+    background-color: #303030;
+    grid-template-columns: repeat(auto-fit, 250px);
+    color: #ccc;
+    gap: 3rem;
+}
+
+.state_row .state_col {
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 50%;
+    padding: 1rem 0;
+}
+
+.state_col .desc {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* .oriental_container position  */
+
+.center_container .images img,
+.subscribe_container img {
+    position: absolute;
+}
+
+.center_container .ballon {
+    right: 171px;
+    bottom: 77px;
+}
+
+.center_container .capcicum {
+    right: 318px;
+    top: 37px;
+}
+
+.center_container .sun1 {
+    top: 48px;
+    left: 354px;
+}
+
+.center_container .sun2 {
+    top: 254px;
+    right: 109px;
+}
+
+.center_container .sun3 {
+    bottom: 60px;
+    left: 83px;
+}
+
+.center_container .leaf {
+    top: 185px;
+    left: 55px;
+}
+
+.center_container .onion {
+    right: 56px;
+    bottom: 225px;
+}
+
+.center_container .orange {
+    bottom: 50px;
+    right: 461px;
+}
+
+.center_container .capcicum2 {
+    bottom: 150px;
+    left: 341px;
+    transform: rotate(65deg);
+}
+
+/* bottom orientation  */
+main .bottom_statics {
+    position: relative;
+    height: 540px;
+    background-image: url(../images/oriental_bottom.png);
+    background-position-x: -150px;
+    background-position-y: -1500px;
+}
+
+.bottom_statics .circle {
+    position: absolute;
+    right: 135px;
+    top: 100px;
+}
+
+.bottom_statics .bottom_oriental_container {
+    max-width: 603px;
+    position: absolute;
+    left: 200px;
+    bottom: 180px;
+    padding: 1rem 0;
+}
+
+.bottom_statics p {
+    font-size: 29.74px;
+    color: #ccc;
+}
+
+/* lenora  container */
+main .lenora_container {
+    max-width: 100%;
+    min-height: 800px;
+    background-color: #ffc200;
+    background-image: url(../images/opacitydiv.png);
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.lenora_container .layer_container {
+    max-width: 100%;
+    min-height: 800px;
+    background-color: #ffc40091;
+    display: grid;
+    place-items: center;
+}
+
+.layer_container .lenore_content {
+    font-size: 44.89px;
+    text-shadow: 1px 0.5px 0.5px black;
+    text-align: center;
+    width: 70vw;
+    max-width: 900px;
+    margin: auto;
+}
+/* 
+.lenore_content .title {
+    font-size: 74.19px;
+    font-family: "Grand Hotel", cursive;
+    text-transform: capitalize;
+} */
+
+main .subscribe_container {
+    max-width: 100%;
+    min-height: 740px;
+    display: grid;
+    place-items: center;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+/* its for position  */
+.subscribe_container .ballon {
+    right: 171px;
+    bottom: 77px;
+}
+
+.subscribe_container .capcicum {
+    right: 318px;
+    top: 35px;
+}
+
+.subscribe_container .sun1 {
+    top: 46px;
+    left: 354px;
+}
+
+.subscribe_container .sun2 {
+    top: 249px;
+    right: 109px;
+}
+
+.subscribe_container .sun3 {
+    bottom: 46px;
+    left: 83px;
+}
+
+.subscribe_container .leaf {
+    top: 183px;
+    left: 55px;
+}
+
+.subscribe_container .onion {
+    right: 168px;
+    bottom: 204px;
+}
+
+.subscribe_container .orange {
+    bottom: 36px;
+    right: 461px;
+}
+
+.subscribe_container .capcicum2 {
+    bottom: 65px;
+    left: 341px;
+    transform: rotate(65deg);
+}
+
+.subscribe_container .subscribe_content {
+    text-align: center;
+    margin-bottom: 5rem;
+    max-width: 880px;
+}
+/* 
+.subscribe_content .title {
+    font-size: 100.07px;
+} */
+
+.subscribe_content p {
+    font-size: 29.74px;
+    margin: 2rem;
+}
+
+.subscribe_content .input_box {
+    max-width: 580px;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+.input_box form {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.input_box input[type="email"] {
+    flex: 1;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.input_box button {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #ffc200;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(253, 253, 253);
+}
+
+/* footer part  */
+footer {
+    background-color: #303030;
+    color: #ccc;
+    padding: 1rem;
+}
+
+footer .footer_row {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+
+footer .col_title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25.02px;
+}
+
+footer .description {
+    font-size: 23.62px;
+    margin: 2rem 0;
+}
+
+.footer_row .col_content {
+    max-width: 450px;
+    margin: auto
+}
+
+footer .footer_icon {
+    display: flex;
+    text-align: center;
+}
+
+.footer_icon .icon {
+    border: 2px solid #ccc;
+    background-color: #ccc;
+    color: #303030;
+    padding: 2px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0 1rem 3rem;
+}
+
+footer .sub_row {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.child_col .col_title {
+    margin-bottom: 1rem;
+}
+
+.child_col p {
+    line-height: 2.5rem;
+    font-size: 23.62px;
+    text-transform: capitalize;
+}
